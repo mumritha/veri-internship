@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.color-in-hr {
+    border-bottom: 4px dashed #732791;
+}
+
+.box-right {
+    width: 100px;
+    height: 50px;
+    background-color: #9f59ba;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 57% 50%);
+}
+
+.box-left {
+    width: 100px;
+    height: 50px;
+    background-color: #9f59ba;
+    clip-path: polygon(0% 0%, 75% 0%, 36% 54%, 75% 100%, 0 100%);
+}
