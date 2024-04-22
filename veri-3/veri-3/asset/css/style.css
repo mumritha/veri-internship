@@ -1,0 +1,119 @@
+
+.todolits-app-page {
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    /* height: 50vh; */
+    
+}
+
+.todo-app {
+    background-color: white;
+    max-width: 600px;
+    padding: 5px 0px 20px 5px;
+    margin: 120px auto 15px;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+.todo-app h1,
+.inp {
+    text-align: center;
+}
+
+form {
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+
+}
+
+input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    align-items: center;
+    border: 2px solid blueviolet;
+}
+
+#btn {
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    ;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+/* after task list shown */
+ul#task-list {
+    list-style-type: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.markcomplete {
+    background-color: rgb(134, 207, 167);
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.edit {
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.delete {
+    background-color: rgb(134, 0, 0);
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.footer {
+    background-color: transparent;
+    padding: 5px 0px 20px 5px;
+    margin:190px auto 15px;
+    border-radius: 15px;
+}
+
+.footer p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.footer p span {
+    font-style: italic;
+    font-weight: 700;
+
+}
+.actions {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 2px;
+}
+.actions button {
+    margin-right: 10px; 
+}
